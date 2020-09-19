@@ -1,0 +1,149 @@
+body{
+  font-family: "Bahnschrift Light";
+  line-height: inherit;
+}
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  margin-right: 10px;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  margin-right: 10px;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-top: calc(3.25rem + 20px);
+  }
+
+  .navbar {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .hero.is-fullheight {
+    min-height: calc(100vh - 6.5rem - 40px);
+  }
+}
+ 
+.index-landing-page{
+  height: 90vh;
+  margin-top: 30px;
+}
+.habilidades-landing-page{
+  height: 100vh;
+  margin-top: -60px;  
+}
+.experiencias-landing-page{
+  margin-top: 130px;
+}
+.experiencias-landing-page-two{
+  height: 100vh;
+}
+.proyectos-landing-page{
+  margin-top: 180px;
+}
+.proyectos-landing-page-two{
+  height: 30vh;
+}
+.contactame-landing-page{
+  margin-top: 50px;
+}
+.contactame-landing-page-two{
+  height: 70vh;
+}
+
+
+.is-size-5{
+  width: 80%;
+}
+.ri-index-image{
+  width: 100%;
+}
+.icon-social{
+  width: 50px;
+}
+.ri-column-modify{
+  margin-top: 60px;
+}
+.is-fab {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.has-content-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.ri-skill-icon{
+  color:#4a4a4a;
+  font-size: 60px;
+}
+.ri-habilidades-image{
+  width: 90%;
+}
+.image.is-4by3 {
+    padding-top: 50%;
+}
+.card{
+  width: 85%; 
+}
+.ri-proyectos-pdl{
+  font-size: 15px; 
+  text-align: left; 
+  font-weight: 100;
+}
+.ri-proyectos-images{
+  width: 60%;
+}
+.ri-contactame-image{
+  width: 70%; 
+  border-radius: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .index-landing-page{
+    margin-top: -80px;
+    height: 100vh;
+  }
+  .habilidades-landing-page{
+    margin-top: 60%;
+  }
+  .experiencias-landing-page{
+    margin-top: 70%;
+  }
+  .card{
+  width: 100%; 
+  }
+  .proyectos-landing-page{
+  margin-top: 300%;
+  }
+  .proyectos-landing-page-two{
+  height: 0vh;
+  }
+  .ri-proyectos-pdl{
+  text-align: center; 
+  }
+  .contactame-landing-page-two{
+    height: 50vh;
+    margin-top: 10px;
+  }
+}
