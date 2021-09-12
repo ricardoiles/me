@@ -1,297 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ricardo Iles</title>
-	<link rel="shortcut icon" href="imagenes/ri-favicon.png" type="image/x-icon">
-	<!-- Bulma Version 0.9.0-->
-	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css">
-</head>
-<body>
-	<div id="home"></div>
-	<!-- START NAV -->
-	<nav class="navbar">
-		<div class="container">
-			<div class="navbar-brand">
-				<a class="navbar-item" href="#home">
-					<img src="imagenes/ri-favicon.png" alt="RicardoIles">
-				</a>
-				<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-				  <span aria-hidden="true"></span>
-				  <span aria-hidden="true"></span>
-				  <span aria-hidden="true"></span>
-				</a>
-			</div>
-			<div class="navbar-menu" id="navMenu">
-				<div class="navbar-end">
-					<a class="navbar-item" href="#home">Inicio</a>
-					<a class="navbar-item" href="#habilidades">Habilidades</a>
-					<a class="navbar-item" href="#experiencias">Experiencias</a>
-					<a class="navbar-item" href="#proyectos">Proyectos</a>
-					<a class="navbar-item" href="#contactame">Contáctame</a>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<!-- END NAV -->    
-	<section class="hero is-fullheight">
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<div class="columns is-2 is-variable index-landing-page">
-					<div class="column is-three-fifths has-text-left ri-column-modify">
-						<h1 class="title is-1">Hola, soy Ricardo Iles</h1>
-						<p class="is-size-5">
-							Soy un chico emprendedor apasionado, desarrollador y diseñador de software web junior, técnico en sistemas, y guía emocional.
-						</p>
-						<div class="social-media">
-							<a href="https://facebook.com/riccardoiles" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/fb-icon.jpg">
-							</a>
-							<a href="https://instagram.com/riccardoiles" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/ig-icon.jpg">
-							</a>
-							<a href="https://wa.link/q73ue3" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/wht-icon.jpg">
-							</a>
-							<a href="https://twitter.com/RiccardoIles" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/tw-icon.jpg">
-							</a>
-						</div>
-						<div class="social-media">
-							<a href="#habilidades">
-								<button class="button is-rounded">Ver más</button>
-							</a>
-							<div id="habilidades"></div>
-						</div>
-					</div>
-					<div class="column is-one-thirds has-text-left ri-column-modify">
-						<img class="ri-index-image" src="imagenes/index-image.png">
-					</div>
-				</div>
-				<!--Habilidades-->
-				<div class="columns is-2 is-variable habilidades-landing-page">
-					<div class="column is-half">
-						<img class="ri-habilidades-image" src="imagenes/habilidades-image.png">
-					</div>
-					<div class="column is-one-thirds has-text-left">
-						<h1 class="title is-1">Mis habilidades</h1>
-						<p class="is-size-5">
-							Servicio técnico de sistemas, desarrollar y diseñar apps web, emprender, guía emocional.
-						</p>
-						<div class="social-media">
-							<a href="#ServicioSistemas" class="is-light is-large ri-skill-icon" >
-								<i class="fa fa-laptop-house" data-tooltip="Tooltip content"></i>
-							</a>
-							<a href="#HTML5" class="is-light is-large ri-skill-icon">
-								<i class="fab fa-html5"></i>
-							</a>
-							<a href="#CSS3" class="is-light is-large ri-skill-icon">
-								<i class="fab fa-css3-alt"></i>
-							</a>
-							<a href="#Javascript" class="is-light is-large ri-skill-icon">
-								<i class="fab fa-js"></i>
-							</a>
-							<a href="#Git" class="is-light is-large ri-skill-icon">
-								<i class="fab fa-git-square"></i>
-							</a>							
-							<a href="#PHP" class="is-light is-large ri-skill-icon">
-								<i class="fab fa-php"></i>
-							</a>
-							<br>
-							<a href="#LaravelFrameworkPHP" class="is-light is-large ri-skill-icon">
-								<i class="fab fa-laravel"></i>
-							</a>
-							<a href="#BaseDatosSQL" class="is-light is-large ri-skill-icon">
-								<i class="fa fa-database"></i>
-							</a>
-							<a href="#GuiaEmocional" class="is-light is-large ri-skill-icon">
-								<i class="fa fa-book-reader"></i>
-							</a>
-						</div>
-						<div class="is-fab has-content-centered">
-							<a href="#home">
-							  <button class="button is-primary is-rounded">
-							    <span class="icon">
-							      <i class="fas fa-chevron-up"></i>
-							    </span>
-							    <span>Inicio</span>
-							  </button>
-							 </a>					
-						</div>
-					</div>
-				</div><div id="experiencias"></div>
-				<!--Experiencias-->
-				<div class="columns is-12 experiencias-landing-page">
-					<h1 class="title is-1">Experiencias</h1>							
-				</div>
-				<div class="columns experiencias-landing-page-two">
-				  <div class="column is-4">
-				  	<div class="card">
-					  <div class="card-image">
-					    <figure class="image is-4by3">
-					      <img src="https://i.ytimg.com/vi/e2GoRxuPx7E/maxresdefault.jpg" alt="MUTEAMSAS">
-					    </figure>
-					  </div>
-					  <div class="card-content">
-					    <div class="media">
-					      <div class="media-left">
-					        <figure class="image is-48x48">
-					          <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHNsGqOkzcvrA/company-logo_200_200/0?e=2159024400&v=beta&t=rHsQvwpFoKBTyLVrJZi5wp0SANffblOnIxLVaiHoxcc" alt="MUTEAMSASLogo">
-					        </figure>
-					      </div>
-					      <div class="media-content">
-					        <p class="title is-4">Mensajeros Urbanos</p>
-					        <p class="subtitle is-6">Pasante fullstack</p>
-					      </div>
-					    </div>
-					    <div class="content">
-					      <time>Julio 2017 - Febrero 2018</time>
-					      <br>
-					      Hice las practicas de mi tecnología en esta increíble startup, como desarrollador y diseñador de los desarrollos paralelos para el área de servicio al cliente.
-					    </div>
-					  </div>
-					</div>
-				  </div>
-				  <div class="column is-4">
-				  	<div class="card">
-					  <div class="card-image">
-					    <figure class="image is-4by3">
-					      <img src="https://i.ytimg.com/vi/xzyMPLcdTJE/maxresdefault.jpg" alt="EJECOL">
-					    </figure>
-					  </div>
-					  <div class="card-content">
-					    <div class="media">
-					      <div class="media-left">
-					        <figure class="image is-48x48">
-					          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Escudo_Ejercito_Nacional_de_Colombia.svg/1200px-Escudo_Ejercito_Nacional_de_Colombia.svg.png" alt="EJECOLlogo">
-					        </figure>
-					      </div>
-					      <div class="media-content">
-					        <p class="title is-4">Ejercito Nacional Colombia</p>
-					        <p class="subtitle is-6">Régimen interno</p>
-					      </div>
-					    </div>
-					    <div class="content">
-					      <time>Enero 2019 - Febrero 2020</time>
-					      <br>
-					      Prestando el servicio militar me desempeñe en asistencia y servicios de sistemas, control y distribución de material militar por medio de ejecución de software empresarial.
-					    </div>
-					  </div>
-					</div>
-				  </div>
-				  <div class="column is-4">
-				  	<div class="card">
-					  <div class="card-image">
-					    <figure class="image is-4by3">
-					      <img src="imagenes/pdl-landing-page.png" alt="PDL">
-					    </figure>
-					  </div>
-					  <div class="card-content">
-					    <div class="media">
-					      <div class="media-left">
-					        <figure class="image is-48x48">
-					          <img src="imagenes/pdllogo.PNG" alt="PDLLogo">
-					        </figure>
-					      </div>
-					      <div class="media-content">
-					        <p class="title is-4">Plataforma de lanzamiento</p>
-					        <p class="subtitle is-6">Freelancer</p>
-					      </div>
-					    </div>
-					    <div class="content">
-					    	<time>Marzo 2020 - Actualidad</time>
-					    	<br>
-					      Durante la pandemia he consolidado una iniciativa y creado cada parte de ella, afianzando habilidades necesarias; diseñando y desarrollando.	
-					    </div>
-					  </div>
-					</div>
-				  </div>
-				</div><div  id="proyectos"></div>
-				<!--proyectos-->
-				<div class="columns is-12 proyectos-landing-page">
-					<h1 class="title is-1">Algunos proyectos
-						<p class="ri-proyectos-pdl">Proyectos Plataforma de lanzamiento</p>		
-					</h1>				
-				</div>
-				<br>
-				<div class="columns">
-				  <div class="column is-3">
-				  	<img class="ri-proyectos-images" src="imagenes/conquistadores.png">
-				  </div>
-				  <div class="column is-3">
-				  	<img class="ri-proyectos-images" src="imagenes/pacos.png">
-				  </div>
-				  <div class="column is-3">
-				  	<img class="ri-proyectos-images" src="imagenes/relatados.png">
-				  </div>
-				  <div class="column is-3">
-				  	<img class="ri-proyectos-images" src="imagenes/seron.png">
-				  </div>
-				</div>
-				<div class="columns">
-				  <div class="column is-3">				  	
-				  </div>
-				  <div class="column is-3">
-				  	<img class="ri-proyectos-images" src="imagenes/shareart.png">
-				  </div>
-				  <div class="column is-3">
-				  	<img class="ri-proyectos-images" src="imagenes/fludo.png">
-				  </div>
-				  <div class="column is-3">				  	
-				  </div>
-				</div>
-				<div class="columns proyectos-landing-page-two">
-				  	<div class="column is-12">	
-					  	<a href="#contactame">
-							<button class="button is-rounded">Quiero unirme</button>
-						</a>			  	
-				  	</div>
-				</div>
-				<!--contactame-->
-				<div class="columns is-2 is-variable contactame-landing-page" id="contactame">
-					<div class="column is-three-fifths has-text-left ri-column-modify">
-						<h1 class="title is-1">¿Qué tal?¿buen paseo?</h1>
-						<p class="is-size-5">
-							Escríbeme si tienes ideas, si necesitas ayuda, si tienes sugerencias, o escríbeme por si no tienes con quien hablar sobre el por que de las cosas. <br> ¡Te dejo mis redes y números de contacto, anda, anímate conmigo y mi equipo a lanzar personas e ideas al éxito!
-						</p>
-						<br>
-						<p class="is-size-5"><i class="fas fa-map-marker-alt"></i> Isnos. Huila</p>
-						<p class="is-size-5"><i class="fas fa-phone-alt"></i> 320 453 3685</p>
-						<p class="is-size-5"><i class="fas fa-envelope-open"></i> 
-							<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=danieliles18@gmail.com" target="_blank">
-								danieliles18@gmail.com
-							</a>
-						</p>
-						<div class="social-media">
-							<p><b>Pregunta con libertad lo que quieras</b></p>
-							<a href="https://facebook.com/riccardoiles" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/fb-icon.jpg">
-							</a>
-							<a href="https://instagram.com/riccardoiles" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/ig-icon.jpg">
-							</a>
-							<a href="https://wa.link/q73ue3" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/wht-icon.jpg">
-							</a>
-							<a href="https://twitter.com/RiccardoIles" target="_blank" class="is-light is-large">
-								<img class="icon-social" src="imagenes/tw-icon.jpg">
-							</a>
-						</div>
-					</div>
-					<div class="column is-one-thirds has-text-left ri-column-modify contactame-landing-page-two">
-						<img class="ri-contactame-image" src="imagenes/me-house.jpeg">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<script type="text/javascript" src="js/navburger.js"></script>
-<script type="text/javascript" src="js/bulma.js"></script>
-</body>
+  	<head>
+	    <meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+	    <title>Ricardo Iles</title>
+	    <!-- MDB icon me-pdl-->
+		    <link rel="icon" href="imagenes/me-icon.png" type="image/x-icon" />
+	    <!-- Font Awesome -->
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+	    <!-- Google Fonts Roboto -->
+	    <link
+	      rel="stylesheet"
+	      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+	    />
+	    <!-- MDB -->
+	    <link rel="stylesheet" href="css/mdb.min.css" />
+	    <!-- Custom styles -->	
+	    <link rel="stylesheet" type="text/css" href="css/index.css">
+	    <style></style>
+  	</head>
+  <body>
+  	<!-- nav -->
+    <div class="container my-5">
+		<div class="row mb-5">
+		    <div class="col-12">
+		      <ul class="nav justify-content-end">
+		        <li class="nav-item">
+		          	<a class="nav-link" href="#blogger">
+			          	<button type="button" class="btn btn-warning btn-rounded">
+			              <i class="fab fa-blogger-b fa-lg pe-1"></i> Blog Snotes
+			            </button>
+		        	</a>
+		        </li>
+		      </ul>
+		    </div>
+	    </div>
+	</div>
+	<!-- End nav -->
+
+	<!-- Container sobre mi -->
+	<div class="container my-5">
+      <!--Section: Container sobre mi-->
+	      <section>
+	        <div class="row">
+	          <div class="col-md-6">
+	            <img
+	              src="imagenes/me-pdl.jpg"
+	              class="img-fluid shadow-2-strong me-pdl"
+	            />
+	          </div>
+	          <div class="col-md-6">
+	            <p class="mb-4 me-text-sobremi">
+	            	<h3>Ricardo Iles</h3>
+	            	CEO Plataforma de lanzamiento, diseñador y desarrollador web
+	            	<br>
+	            	<hr class="me-hr">
+	              Soy un chico emprendedor apasionado, desarrollador y diseñador de software web junior. Estoy creando una iniciativa de desarrollo tecnológico y social que lanza personas e ideas al éxito. 
+	            </p>
+	            <a class="nav-link" href="#habilidades">
+		          	<button type="button" class="btn btn-primary btn-rounded">
+		              <i class="fas fa-arrow-down fa-lg pe-1"></i>
+		            </button>
+		        </a>
+	          </div>
+	        </div>
+	      </section>
+      <!--Section: Container sobre mi-->
+    </div>
+    <!-- End Container sobre mi -->
+
+    <!-- Container habilidades -->
+    <div id="habilidades" class="container my-5 p-5 shadow-3">
+      <!--Section: Container habilidades-->
+      <section>
+        <h3 class="mb-4 text-center">Mis habilidades</h3>
+
+        <!-- Accordion wrapper -->
+        <div class="accordion" id="accordionExample">
+          <!-- Single collapse -->
+          <!-- primer habilidad -->
+          <div id="headingOne">
+            <h2>
+              <button
+                class="btn btn-link btn-block text-start ps-3"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <b class="base">80%</b> - Programación web PHP y LARAVEL	
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show ps-3"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            Progrmación creando API REST para ser consumidas de manera externa con PHP puro o haciendo uso del framework laravel, el lenguaje y metodo usado de programación basado en php es orientado a objetos.
+          </div>
+          <!-- primer habilidad -->
+
+          <!-- segunda habilidad -->
+          <div id="headingTwo">
+            <h2>
+              <button
+                class="btn btn-link btn-block text-start ps-3 collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <b class="base">90%</b> - Diseño y maquetación web HTML5 y CSS3
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseTwo"
+            class="collapse ps-3"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            Uso de Adobe Ilustrator intermedio. <br> Uso de frameworks de diseño, tales como: Bootstrap, Bulma, mdl de google, responsive web desing con CSS3 y HTML5.
+          </div>
+          <!-- segunda habilidad -->
+
+          <!-- tercer habilidad -->
+          <div id="headingThree">
+            <h2>
+              <button
+                class="btn btn-link btn-block text-start ps-3 collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <b class="base">80%</b> - Interactividad y desarrollo de Javascript web
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseThree"
+            class="collapse ps-3"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            Uso de clases, funciones orientadas al consumo de APIs, el diseño responsivo y la ejecución optimizada de diseño web.
+          </div>
+          <!-- tercer habilidad -->
+
+          <!-- cuarta habilidad -->
+          <div id="headingFour">
+            <h2>
+              <button
+                class="btn btn-link btn-block text-start ps-3 collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                <b class="base">90%</b> - Base de datos SQL
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseFour"
+            class="collapse ps-3"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          	>
+            Uso y administracion de base de datos relacionales sql, uso de herramienta heidysql y phpmyadmin de xampp.
+          </div>
+          <!-- cuarta habilidad -->
+
+          <!-- quinta habilidad -->
+          <div id="headingFive">
+            <h2>
+              <button
+                class="btn btn-link btn-block text-start ps-3 collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                <b class="base">90%</b> - Git & Github
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseFive"
+            class="collapse ps-3"
+            aria-labelledby="headingFive"
+            data-parent="#accordionExample"
+          	>
+            Uso y control de versiones con repositorios de github desde la terminal de gitbash.
+          </div>
+          <!-- quinta habilidad -->
+
+          <!-- sexta habilidad -->
+          <div id="headingSix">
+            <h2>
+              <button
+                class="btn btn-link btn-block text-start ps-3 collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                <b class="base">90%</b> - 
+                Servicio tecnico en instalación y mantenimiento de sistemas y aplicaciones. 
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseSix"
+            class="collapse ps-3"
+            aria-labelledby="headingSix"
+            data-parent="#accordionExample"
+          	>
+            Servicio tecnico en instalación y mantenimiento de sistemas y aplicaciones de escritorio y moviles.<br> Conocimiento avanzado de office, almacenamiento en la nube, creacion de cuentas y administracion de google.
+          </div>
+          <!-- sexta habilidad -->
+        </div>
+        <!-- Accordion wrapper -->
+      </section>
+      <!--Section: FAQ 1-->
+    </div>
+    <!-- End Container habilidades -->
+
+    <!-- Container Experiencias -->
+    <div id="experiencias" class="container my-5 px-5 pt-5 pb-4">
+      <!--Section: Projects 2-->
+      <section class="text-center">
+        <h3 class="mb-5">Experiencias laborales</h3>
+
+        <div class="row">
+          <div class="col-md-12 col-lg-4 mb-4">
+            <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
+              <img src="https://s3.amazonaws.com/site.wearemo-com/news-img/mu-news.png" class="img-fluid" />
+              <a href="#!">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <h5 class="mb-3">Mensajeros urbanos <br> <i class="me-text-peque">Pasante Fullstack</i></h5>
+            <p class="mb-4">
+              	Julio 2017 - Febrero 2018 <br>
+				Hice las practicas de mi tecnología en esta increíble startup, como desarrollador y diseñador de los desarrollos paralelos para el área de servicio al cliente.
+				<br> <i class="me-text-peque">Programacion y diseño web PHP LARAVEL</i>
+            </p>
+            <a href="https://mensajerosurbanos.com/" target="_blank"><button class="btn btn-info">Visitar Empresa</button></a>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
+              <img src="https://www.brcna.mil.co/tools/microsThumb.php?src=recursos_user/imagenes/editores/286248/WhatsApp_Image_2020_02_14_at_18.05.50.jpeg&h=3000" class="img-fluid" />
+              <a href="#!">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <h5 class="mb-3">Ejercito nacional<br> <i class="me-text-peque">Regimen interno</i></h5>
+            <p class="mb-4">
+              	Enero 2019 - Febrero 2020 <br>
+				Prestando el servicio militar me desempeñe en asistencia y servicios de sistemas, control y distribución de material militar por medio de ejecución de software empresarial.
+				<br> <i class="me-text-peque">Gestion administrativa</i>
+            </p>
+            <a href="https://www.brcna.mil.co/brigada_especial_narcotrafico/conozcanos" target="_blank"><button class="btn btn-info">Visitar Empresa</button></a>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
+              <img src="imagenes/pdl-landing-page.png" class="img-fluid" />
+              <a href="#!">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <h5 class="mb-3">Plataforma de lanzamiento</h5>
+            <p class="mb-4">
+              	Marzo 2020 - Actualidad <br>
+				Durante la pandemia he consolidado una iniciativa y creado cada parte de ella, afianzando habilidades necesarias; diseñando y desarrollando.
+				<br><i class="me-text-peque">Gestion administrativa, liderazgo y programacion web</i>
+            </p>
+            <button class="btn btn-info">En construcción</button>
+          </div>
+        </div>
+      </section>
+      <!--Section: Projects 2-->
+    </div>
+    <!-- End Container Experiencias -->
+
+    <!-- Container blogger -->
+    <div id="blogger" class="container my-5 p-5 shadow-3">
+      <!--Section: blogger-->
+      <section>
+        <div class="row">
+          <div class="col-lg-7 mb-4 mb-lg-0 align-self-center text-center text-lg-start">
+            <h3 class="mb-3">Explora mi blog</h3>
+            <p class="mb-4">
+              No es contenido escrito específicamente a alguien o algo, en realidad son escritos que hacen eco en la vida de todos, ya que todos estamos en el mismo planeta y en ocasiones viviendo las mismas situaciones; el propósito de estas notas no son otro, mas que el de dar a cada uno de los lectores una visión mas amplia del mundo, de la vida, de las situaciones, de los demás. <br><b>Mira que te hace eco, cuestiona y comparte.</b>
+            </p>
+            <a href="http://snotesiles.blogspot.com/" target="_blank">
+            	<button type="button" class="btn btn-warning mb-1">
+	              <i class="fab fa-blogger-b fa-lg pe-1"></i> Visitar blog
+	            </button>
+	        </a>
+          </div>
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img
+              src="imagenes/blogger.jpg"
+              class="img-fluid mx-auto me-blogger-image"
+              alt="Sample image"
+            />
+          </div>
+        </div>
+      </section>
+      <!--Section: blogger-->
+    </div>
+    <!-- End Container blogger -->
+
+    <!-- div proyectos pdl -->
+    <div id="pdl" class="my-5">
+      <!--Section: proyectos pdl-->
+      <section class="text-center py-5" style="background-color: #ebebeb;">
+      	<h3 class="mb-4">Plataforma de lanzamiento <br> 
+        	<h5 style="font-size:14px">Es una iniciativa de desarrollo tecnológico y social que lanza personas e 	ideas al éxito.
+			</h5>
+		</h3> <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <a href="http://pacos.site/" target="_blank">
+	            <img
+	              src="imagenes/pacos.png"
+	              class="img-fluid mx-auto me-project-image"
+	              alt="Logo"
+	            />
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img
+                src="imagenes/seron.png"
+                class="img-fluid me-project-image"
+                alt="Logo"
+              />
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img
+                src="imagenes/relatados.png"
+                class="img-fluid me-project-image"
+                alt="Logo"
+              />
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img
+                src="imagenes/shareart.png"
+                class="img-fluid me-project-image"
+                alt="Logo"
+              />
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img
+                src="imagenes/conquistadores.png"
+                class="img-fluid me-project-image"
+                alt="Logo"
+              />
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img
+                src="imagenes/fludo.png"
+                class="img-fluid me-project-image"
+                alt="Logo"
+              />
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img
+                src="imagenes/AgenteReeble.png"
+                class="img-fluid me-project-image"
+                alt="Logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Customers 3-->
+    </div>
+    <!-- End div proyectos pdl -->
+
+    <!-- Container contacto -->
+    <div id="contact" class="container my-5 p-5">
+      <!--Section: Call to action 3-->
+      <section class="text-center">
+        <h5 class="mb-3">Contactame a través de:</h5>
+
+        <a href="https://www.facebook.com/riccardoiles" target="_blank" class="mx-1" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.link/vlfcpn" target="_blank" class="mx-1" role="button"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://twitter.com/RiccardoIles" target="_blank" class="mx-1" role="button"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/riccardoiles/" target="_blank" class="mx-1" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/riccardoiles/" target="_blank" class="mx-1" role="button"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCJAAxH_fqTKwk_Df_sJRHXA" target="_blank" class="mx-1" role="button"><i class="fab fa-youtube"></i></a>  
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=danieliles18@gmail.com" target="_blank" class="mx-1" role="button"><i class="fas fa-envelope"></i></a>        
+      </section>
+      <!--Section: Call to action 3-->
+    </div>
+    <!-- End container contacto-->
+  </body>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
 </html>
